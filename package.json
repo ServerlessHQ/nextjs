@@ -1,0 +1,42 @@
+{
+  "name": "@serverlesshq/nextjs",
+  "version": "1.0.12",
+  "description": "The easiest way to use ServerlessHQ in your Next.js project",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serverlesshq/nextjs.git"
+  },
+  "keywords": [
+    "serverless",
+    "queue",
+    "nextjs",
+    "cron",
+    "scheduler",
+    "events",
+    "websockets"
+  ],
+  "homepage": "https://www.serverlesshq.com",
+  "author": "John Cantrell <johncantrell97@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serverlesshq/nextjs/issues"
+  },
+  "dependencies": {
+    "@serverlesshq/nodejs": "^1.0.12",
+    "ngrok": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/node-fetch": "^2.5.7",
+    "next": "^10.0.0",
+    "typescript": "^4.0.3"
+  }
+}
